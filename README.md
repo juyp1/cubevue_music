@@ -1,6 +1,6 @@
 # cube_vuemusic
 
-> A Vue.js project
+> A Vue.js project 会不断更新的
 
 ## Build Setup
 
