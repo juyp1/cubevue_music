@@ -1,0 +1,15 @@
+<div class="index_page">
+  <cube-popup type="my-popup" ref="myPopup">
+    <div class="loading_panle">
+      <cube-loading :size="28"></cube-loading>
+    </div>
+  </cube-popup>
+
+  <div class="main_body">
+    <cube-scroll>
+      <ul>
+        <li v-for='item in items'>{{item}}</li>
+      </ul>
+    </cube-scroll>
+  </div>
+</div>

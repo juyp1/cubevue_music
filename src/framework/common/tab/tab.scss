@@ -1,0 +1,22 @@
+@import '../../css/theme.scss';
+.tx_music_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .6);
+}
+
+.tx_music_header li {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.active{
+  color: #31c27c;
+  font-weight: 400;
+  border-bottom: 2px solid #31c27c;
+}
+ 

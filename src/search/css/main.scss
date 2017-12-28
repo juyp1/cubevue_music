@@ -1,0 +1,45 @@
+@import './theme.scss';
+
+.main_header {
+  height: $headerHeight;
+  background: #ffffff;
+}
+.main_header.header_a{
+  background: transparent;
+}
+.main_center_text {
+  font-size: px2rem(56);
+  line-height: 1.2;
+  color: #333333;
+}
+.main_right_text {
+  font-size: px2rem(44);
+  color: $mainColor;
+}
+.framework_page.no_footer .main_body{
+  bottom: 0;
+}
+.framework_page.no_header .main_body{
+  top: 0;
+}
+.main_application .nh_page_statusbar {
+  height: $statusBarHeight;
+  background-color: $mainColor;
+}
+.statusBarOpen .main_body{
+  margin-top: $statusBarHeight;
+}
+.main_body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: $headerHeight;
+  bottom: $footerHeight;
+}
+.main_footer {
+  background: #ffffff;
+}
+.main_header_right__text {
+  font-size: px2rem(40);
+  color: $mainColor;
+}

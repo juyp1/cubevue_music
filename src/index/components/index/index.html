@@ -1,0 +1,22 @@
+<div class="page">
+  <cube-scroll>
+    <template>
+      <div class="slide-container ">
+        <cube-slide @change="changePage">
+          <cube-slide-item v-for="(item, index) in items" :key="index" @click.native="clickHandler(item, index)">
+            <a :href="item.url">
+              <img :src="item.image">
+            </a>
+          </cube-slide-item>
+        </cube-slide>
+      </div>∂∂∂
+      <!--slide e-->
+      <div class="tx_music_main">
+        <h2 class="list_title">电台</h2>
+      
+      </div>
+    </template>
+  </cube-scroll>
+  <!--slide s-->
+
+</div>

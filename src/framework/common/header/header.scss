@@ -1,0 +1,32 @@
+@import '../../css/theme.scss';
+.tx_music_header {
+    height: 44px;
+    position: relative;
+    background: #31c27c;
+}
+
+.tx_music_header  .music_logo {
+    float: left;
+    display: block;
+    width: 90px;
+    height: 25px;
+    margin: 9px 0 0 10px;
+    background-image: url('https://y.gtimg.cn/mediastyle/mobile/yqq_v5/img/logo.png?max_age=19830212&d=20151105145423');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+.tx_music_header .btn_download {
+  position: absolute;
+  display: inline-block;
+  right: 10px;
+  top: 8px;
+  height: 28px;
+  padding: 0 12px;
+  line-height: 28px;
+  border-radius: 99px;
+  font-size: 14px;
+  background: #149c5a;
+  color: #fff;
+}

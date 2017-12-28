@@ -1,0 +1,77 @@
+<div>
+    <cube-scroll>
+  <!-- <p :class="getClass" v-cloak>下单金额:{{getPrices}}</p>
+  <p v-cloak>下单时间:{{getNowTime}}</p>
+  <cube-button @click="onAddCart()">计算属性</cube-button>
+  <template v-if="Number(flag)===0">
+    这是一段文本
+  </template>
+  <template v-else-if="Number(flag)===1">
+    我知道这就是一段文本
+  </template>
+  <template v-else="Number(flag)===2">
+    我特么的真的知道这是文本啊
+  </template>
+  <p>{{flag}}</p>
+  <input v-model="flag" value="" placeholder="状态" />
+  <cube-button :primary="true" @click="setSwitch()">条件判断</cube-button>
+  <ul>
+    <li v-for='item in getListType'>{{item.name}}
+      <span v-if="item.type!=undefined" v-for="i in item.type">{{i.name}}</span>
+    </li>
+  </ul>
+  <p>购物车</p> -->
+  <!-- <template v-if="data.list.length>0">
+    <table>
+      <thead>
+        <tr>
+          <th>商品编号</th>
+          <th>商品名称</th>
+          <th>商品价格</th>
+          <th>购买数量</th>
+          <th>操作</th>
+        </tr>
+        <tr v-for="item in data.list">
+          <td>
+            {{item.id}}
+          </td>
+          <td>
+            {{item.name}}
+          </td>
+          <td>
+            {{item.price}}
+          </td>
+          <td>
+            {{item.count}}
+          </td>
+          <td>
+            <cube-button :primary="true" @click="setSwitch()">移除</cube-button>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+    <div>总价:￥{{totalPrice}}</div>
+  </template>
+  <div v-else>购物车为空</div> -->
+  <!-- <My-component message="来自父组件的值" :propA='Count' @onAdd="onAdd"></My-component> -->
+  <p ref='p'>p标签</p>
+  <My-input v-model="Count"></My-input>
+  <My-Ref-component ref="comA">
+     
+  </My-Ref-component>
+  <!-- <My-book :books='books'>
+    <template slot="book" scope="props">
+        <li>{{props.bookName}}</li>
+    </template>
+  </My-book> -->
+  <cube-button :primary="true" @click="getchildren()">获取子组件message</cube-button>
+  <component :is="currentView"></component>
+  <cube-button  @click="setComponent()">切换组件</cube-button>
+  <div id="div" v-if="showDiv">这是一段文本</div>
+  <cube-button @click="getText()">获取div内容</cube-button>
+ 
+</cube-scroll>
+</div>

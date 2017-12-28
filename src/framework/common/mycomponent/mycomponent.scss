@@ -1,0 +1,11 @@
+@import '../../css/theme.scss';
+.c_container{
+     display: flex;
+     align-items: center;
+}
+.c_container input{
+  border: 1px solid #fc9153;
+  /* height: 40px; */
+  padding: 16px 17px;
+  text-align: center;
+}

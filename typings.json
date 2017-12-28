@@ -1,0 +1,8 @@
+{
+  "globalDevDependencies": {
+    "pug": "registry:dt/pug#2.0.0+20161229235626"
+  },
+  "globalDependencies": {
+    "fastclick": "registry:dt/fastclick#1.0.3+20160510002910"
+  }
+}
